@@ -7,7 +7,7 @@ def test_get_human_age_less_then_15() -> None:
     assert get_human_age(28, 28) == [3, 2]
     assert get_human_age(100, 100) == [21, 17]
     assert get_human_age(15, 15) == [1, 1]
-    assert get_human_age(23,23) == [1, 1]
+    assert get_human_age(23, 23) == [1, 1]
     assert get_human_age(24, 24) == [2, 2]
     assert get_human_age(0, 0) == [0, 0]
     assert get_human_age(-10, -10) == [0, 0]
